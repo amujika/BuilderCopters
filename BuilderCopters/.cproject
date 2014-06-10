@@ -54,6 +54,7 @@
 								<option id="gnu.cpp.link.option.paths.1966697829" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="/usr/lib"/>
 								</option>
+								<option id="gnu.cpp.link.option.flags.1415222984" superClass="gnu.cpp.link.option.flags" value="`pkg-config --cflags opencv` `pkg-config --libs opencv`" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1182074480" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
